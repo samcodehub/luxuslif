@@ -1,0 +1,189 @@
+html, body {
+  margin: 0;
+  width: 100vw;
+  height: 100%;
+  overflow-x: hidden;
+
+  scroll-behavior: smooth;
+
+  
+}
+
+.cart-panel {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  width: 300px;
+  height: 100%;
+  padding-left:10px;
+  padding-right:10px;
+  z-index: 10;
+  transition: right 0.3s ease;
+}
+
+.cart-panel p{
+  font-size: 12px;
+ 
+}
+
+#total-price{
+  font-size:16px;
+}
+
+.cart-panel.open {
+  right: 0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 32px;
+  border: none;
+  background: none;
+  color: #999;
+  cursor: pointer;
+}
+
+
+.cart-footer {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-footer a{
+  font-size: 48px;
+}
+
+/*navbar*/
+  
+.navbar-brand {
+    font-size: 30px;
+    font-weight:900;
+    font-style: italic;
+    font-family: 'PT Serif', serif;
+}
+
+.navbar-brand:hover{
+  
+    text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+    scale:1.1;
+    transition:1s;
+}
+
+
+  .nav-item{
+    font-size: 18px;
+    font-weight:600;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+  }
+  .nav-item:hover{
+    
+    text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+    scale:1.2;
+    transition:1s;
+  }
+
+
+
+.btn{
+  background: rgb(243,211,115);
+  background: linear-gradient(0deg, rgba(243,211,115,1) 0%, rgba(248,180,48,1) 0%, rgba(255,213,76,1) 100%);
+  border-color: #d3ae06; /* Black */
+  color: #242424; /* White */
+}
+.btn:hover {
+  background-color: #FFB700; /* Lighter yellow on hover */
+  border-color: #8a88fc; /* Black */
+  color: #FFFFFF; /* White */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+
+}
+
+#Specification  td{
+  
+  border: 1px solid #ddd;
+}
+  
+.custom-cursor-pointer {
+  cursor: pointer;
+}  
+  
+.logo {
+  width: 100px;
+  height: 100px;
+}
+  
+
+
+footer a {
+  text-decoration: none;
+
+}
+footer a:hover {
+  color: #a9a9a9 !important;
+  text-shadow: 0 0 40px rgba(23, 23, 23, 0.818);
+}
+
+  
+  .card {
+    margin: auto; /* Add some spacing between the cards */
+    border-radius: 30px;
+    overflow:hidden;
+    box-shadow: 0 0 40px rgba(73, 73, 73, 0.227);
+  }
+  
+
+  
+
+
+
+#price{
+  color : rgb(255, 140, 0);
+  font-size:28px;
+  font-weight: 700;
+  
+}
+  @media (max-width: 576px) {
+    .carousel-item video {
+      max-height: 50vh;
+      max-width: 100%;
+    }
+    .list-group-item{
+      font-size: 8px;
+      padding-left: 5px;
+    }
+    .over{
+      font-size: 10px;
+    }
+  }
+
+
+
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+    color: rgb(4, 249, 4);
+    cursor: pointer;
+  }
+  .whatsapp-icon:hover{
+    text-shadow: 0 0 40px rgba(160, 160, 160, 0.818);
+    scale:1.1;
+    transition:1s;
+  }
